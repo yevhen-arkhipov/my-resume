@@ -1,5 +1,5 @@
 body {
-  background-color: F5F7FA;
+  background-color: #e8e8e8;
   font-family: 'Montserrat', sans-serif;
 }
 .main-container {
@@ -29,7 +29,7 @@ body {
   margin: 0 0 40px 0;
 }
 .about-me-profession {
-  font-size: 14px;
+  font-size: 22px;
   font-weight: bold;
   font-style: normal;
   line-height: 17px;
