@@ -160,6 +160,9 @@ body {
 
 /* Sidebar section */
 .sidebar-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   background-color: #1e2939;
   width: 370px;
   padding: 40px 0;
@@ -178,7 +181,7 @@ body {
 
 /* Contacts section */
 .contact-section {
-  margin: 51px 147px 47px 40px;
+  margin: 0px 0px 0px 40px;
 }
 .contact-section-type {
   font-weight: bold;
@@ -209,9 +212,6 @@ body {
 }
 
 /* Tech skills section */
-.tech-skills-section {
-  margin: 0px 209px 44px 40px;
-}
 .tech-skills-list {
   padding: 0 0 0 18px;
 }
@@ -223,9 +223,6 @@ body {
 }
 
 /* Soft skills section */
-.soft-skills-section {
-  margin: 0px 217px 366px 40px;
-}
 .soft-skills-list {
   padding: 0 0 0 18px;
 }
