@@ -26,7 +26,7 @@ body {
 
 /* About me section */
 .about-me-section {
-  margin: 0 0 40px 0;
+  margin: 0 0 51px 0;
 }
 .about-me-profession {
   font-size: 22px;
@@ -34,6 +34,14 @@ body {
   font-style: normal;
   line-height: 17px;
   color: #000000;
+  margin: 0 0 19px 0;
+}
+.about-me-profession-2 {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 17px;
+  color: #fb6d3a;
   margin: 0 0 19px 0;
 }
 .about-me-name {
@@ -50,7 +58,6 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  width: 400px;
 }
 
 /* My projects section */
@@ -183,33 +190,12 @@ body {
 .contact-section {
   margin: 0px 0px 0px 40px;
 }
-.contact-section-type {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
-  color: #ffffff;
-  margin-right: 7px;
+.contact-list {
+  padding: 0 0 0 18px;
 }
-.contact-section__mail {
-  display: flex;
+.contact-item {
+  color: #fb6d3a;
 }
-.contact-section-link-1 {
-  color: #8e949c;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  text-decoration-line: none;
-}
-.contact-section-link-2 {
-  color: #8e949c;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  text-decoration-line: underline;
-}
-
 /* Tech skills section */
 .tech-skills-list {
   padding: 0 0 0 18px;
@@ -217,8 +203,9 @@ body {
 .tech-skills-item {
   color: #fb6d3a;
 }
-.tech-skills-item-text {
+.item-text {
   color: #ffffff;
+  text-decoration: none;
 }
 
 /* Soft skills section */
@@ -227,7 +214,4 @@ body {
 }
 .soft-skills-item {
   color: #fb6d3a;
-}
-.soft-skills-item-text {
-  color: #ffffff;
 }
